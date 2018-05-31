@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-
 class Car extends Component {
     render() {
         return (
             <div>
-                <h5>Tardis</h5>
+                <h5>{this.props.Car}</h5>
             </div>
         );
     }
